@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8788ECDB16BCBCF2007FC58F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8788ECDA16BCBCF2007FC58F /* MainMenu.xib */; };
+		8788ECE216BCBD5D007FC58F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8788ECE016BCBD5D007FC58F /* Localizable.strings */; };
+		8788ECE616BCBEDC007FC58F /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8788ECE516BCBEDC007FC58F /* AppController.m */; };
+		87C8176814D646C700BC9643 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C8176714D646C700BC9643 /* Cocoa.framework */; };
+		87C8177414D646C700BC9643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8177314D646C700BC9643 /* main.m */; };
+		87C8177B14D646C700BC9643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8177A14D646C700BC9643 /* AppDelegate.m */; };
+		87C8178614D649F900BC9643 /* BatteryStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8178514D649F900BC9643 /* BatteryStatus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8788ECD916BCBC1E007FC58F /* BatteryStatus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BatteryStatus.entitlements; sourceTree = "<group>"; };
+		8788ECDA16BCBCF2007FC58F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		8788ECE116BCBD5D007FC58F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8788ECE316BCBD90007FC58F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8788ECE416BCBEDC007FC58F /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		8788ECE516BCBEDC007FC58F /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		87C8176314D646C700BC9643 /* BatteryStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C8176714D646C700BC9643 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		87C8176A14D646C700BC9643 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		87C8176B14D646C700BC9643 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87C8176C14D646C700BC9643 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87C8176F14D646C700BC9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C8177314D646C700BC9643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C8177514D646C700BC9643 /* BatteryStatus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BatteryStatus-Prefix.pch"; sourceTree = "<group>"; };
+		87C8177914D646C700BC9643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87C8177A14D646C700BC9643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87C8178414D649F900BC9643 /* BatteryStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryStatus.h; sourceTree = "<group>"; };
+		87C8178514D649F900BC9643 /* BatteryStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryStatus.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C8176014D646C700BC9643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C8176814D646C700BC9643 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C8175814D646C600BC9643 = {
+			isa = PBXGroup;
+			children = (
+				87C8176D14D646C700BC9643 /* BatteryStatus */,
+				87C8176614D646C700BC9643 /* Frameworks */,
+				87C8176414D646C700BC9643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C8176414D646C700BC9643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C8176314D646C700BC9643 /* BatteryStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C8176614D646C700BC9643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C8176714D646C700BC9643 /* Cocoa.framework */,
+				87C8176914D646C700BC9643 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87C8176914D646C700BC9643 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C8176A14D646C700BC9643 /* AppKit.framework */,
+				87C8176B14D646C700BC9643 /* CoreData.framework */,
+				87C8176C14D646C700BC9643 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		87C8176D14D646C700BC9643 /* BatteryStatus */ = {
+			isa = PBXGroup;
+			children = (
+				8788ECE416BCBEDC007FC58F /* AppController.h */,
+				8788ECE516BCBEDC007FC58F /* AppController.m */,
+				87C8177914D646C700BC9643 /* AppDelegate.h */,
+				87C8177A14D646C700BC9643 /* AppDelegate.m */,
+				8788ECD916BCBC1E007FC58F /* BatteryStatus.entitlements */,
+				87C8178414D649F900BC9643 /* BatteryStatus.h */,
+				87C8178514D649F900BC9643 /* BatteryStatus.m */,
+				8788ECDA16BCBCF2007FC58F /* MainMenu.xib */,
+				87C8176E14D646C700BC9643 /* Supporting Files */,
+			);
+			path = BatteryStatus;
+			sourceTree = "<group>";
+		};
+		87C8176E14D646C700BC9643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8788ECE016BCBD5D007FC58F /* Localizable.strings */,
+				87C8176F14D646C700BC9643 /* Info.plist */,
+				87C8177314D646C700BC9643 /* main.m */,
+				87C8177514D646C700BC9643 /* BatteryStatus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C8176214D646C700BC9643 /* BatteryStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C8178114D646C700BC9643 /* Build configuration list for PBXNativeTarget "BatteryStatus" */;
+			buildPhases = (
+				87C8175F14D646C700BC9643 /* Sources */,
+				87C8176014D646C700BC9643 /* Frameworks */,
+				87C8176114D646C700BC9643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryStatus;
+			productName = BatteryStatus;
+			productReference = 87C8176314D646C700BC9643 /* BatteryStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C8175A14D646C600BC9643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 87C8175D14D646C600BC9643 /* Build configuration list for PBXProject "BatteryStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 87C8175814D646C600BC9643;
+			productRefGroup = 87C8176414D646C700BC9643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C8176214D646C700BC9643 /* BatteryStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C8176114D646C700BC9643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8788ECDB16BCBCF2007FC58F /* MainMenu.xib in Resources */,
+				8788ECE216BCBD5D007FC58F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C8175F14D646C700BC9643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C8177414D646C700BC9643 /* main.m in Sources */,
+				87C8177B14D646C700BC9643 /* AppDelegate.m in Sources */,
+				87C8178614D649F900BC9643 /* BatteryStatus.m in Sources */,
+				8788ECE616BCBEDC007FC58F /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8788ECE016BCBD5D007FC58F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8788ECE116BCBD5D007FC58F /* ja */,
+				8788ECE316BCBD90007FC58F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C8177F14D646C700BC9643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		87C8178014D646C700BC9643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		87C8178214D646C700BC9643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BatteryStatus/BatteryStatus.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryStatus/BatteryStatus-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BatteryStatus/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87C8178314D646C700BC9643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BatteryStatus/BatteryStatus.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BatteryStatus/BatteryStatus-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BatteryStatus/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C8175D14D646C600BC9643 /* Build configuration list for PBXProject "BatteryStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8177F14D646C700BC9643 /* Debug */,
+				87C8178014D646C700BC9643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C8178114D646C700BC9643 /* Build configuration list for PBXNativeTarget "BatteryStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8178214D646C700BC9643 /* Debug */,
+				87C8178314D646C700BC9643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C8175A14D646C600BC9643 /* Project object */;
+}

@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  BatteryStatus
+*/
+
+BTKEYBORD_BATTERY = "Bluethooth Keybord Battery:";
+BTMOUSE_BATTERY = "Bluethooth Mouse Battery:";
+BTTRACKPAD_BATTERY = "Bluethooth Trackpad Battery:";
