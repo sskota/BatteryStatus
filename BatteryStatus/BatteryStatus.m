@@ -143,7 +143,7 @@
     return result;
 }
 
--(NSString *)getNoteBatteryPersent 
+-(NSString *)getNoteBatteryPercent 
 {
     NSString *current = [self getNoteBatteryCurrentCapacity];
     NSString *max = [self getNoteBatteryMaxCapacity];
@@ -202,7 +202,7 @@
  * Bluetoothアクセサリ系
  */
 
--(NSString *)getBTKeyboardBatteryPersent 
+-(NSString *)getBTKeyboardBatteryPercent 
 {
     NSTask *task = [[NSTask alloc] init];
     NSPipe *pipe = [[NSPipe alloc] init];
@@ -224,7 +224,7 @@
     return result;
 }
 
--(NSString *)getBTMouseBatteryPersent 
+-(NSString *)getBTMouseBatteryPercent 
 {
     NSTask *task = [[NSTask alloc] init];
     NSPipe *pipe = [[NSPipe alloc] init];
@@ -246,7 +246,7 @@
     return result;
 }
 
--(NSString *)getBTTrackpadBatteryPersent 
+-(NSString *)getBTTrackpadBatteryPercent 
 {
     NSTask *task = [[NSTask alloc] init];
     NSPipe *pipe = [[NSPipe alloc] init];

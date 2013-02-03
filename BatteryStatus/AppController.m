@@ -67,17 +67,17 @@
     }
     
     // バッテリー充電率取得
-    NSString *batteryPersent = [status getNoteBatteryPersent];
-    if (![batteryPersent isEqualToString:@""]) {
-        batteryPersent =
+    NSString *batteryPercent = [status getNoteBatteryPercent];
+    if (![batteryPercent isEqualToString:@""]) {
+        batteryPercent =
             [NSString stringWithFormat:@"%@ %@%%\n",
-             NSLocalizedString(@"BATTERY_PERSENT", @""),
-             batteryPersent];
+             NSLocalizedString(@"BATTERY_PERCENT", @""),
+             batteryPercent];
     }
     else {
-        batteryPersent =
+        batteryPercent =
             [NSString stringWithFormat:@"%@ %@\n",
-             NSLocalizedString(@"BATTERY_PERSENT", @""),
+             NSLocalizedString(@"BATTERY_PERCENT", @""),
              NSLocalizedString(@"NOT_CONNECT", @"")];
     }
     
@@ -142,7 +142,7 @@
     }
     
     // BTキーボードのバッテリー残量取得
-    NSString *keybordBattery = [status getBTKeyboardBatteryPersent];
+    NSString *keybordBattery = [status getBTKeyboardBatteryPercent];
     if (![keybordBattery isEqualToString:@""]) {
         keybordBattery =
             [NSString stringWithFormat:@"%@ %@%%\n",
@@ -158,7 +158,7 @@
     
     
     // BTマウスのバッテリー残量取得
-    NSString *mouseBattery = [status getBTMouseBatteryPersent];
+    NSString *mouseBattery = [status getBTMouseBatteryPercent];
     if (![mouseBattery isEqualToString:@""]) {
         mouseBattery =
             [NSString stringWithFormat:@"%@ %@%%\n",
@@ -174,7 +174,7 @@
     
     
     // BTトラックパッドのバッテリー残量取得
-    NSString *trackpadBattery = [status getBTTrackpadBatteryPersent];
+    NSString *trackpadBattery = [status getBTTrackpadBatteryPercent];
     if (![trackpadBattery isEqualToString:@""]) {
         trackpadBattery =
             [NSString stringWithFormat:@"%@ %@%%\n",
@@ -194,7 +194,7 @@
          externalConnected,
          batteryIsFully,
          batteryTimeLeft,
-         batteryPersent,
+         batteryPercent,
          batteryHelth,
          batteryCurrentCapacity,
          batteryMaxCapacity,

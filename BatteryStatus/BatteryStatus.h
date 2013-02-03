@@ -16,15 +16,15 @@
 -(NSString *)getNoteBatteryDegignCapacity;
 -(NSString *)getNoteBatteryMaxCapacity;
 -(NSString *)getNoteBatteryCurrentCapacity;
--(NSString *)getNoteBatteryPersent;
+-(NSString *)getNoteBatteryPercent;
 -(NSString *)getNoteBatteryHelth;
 -(NSString *)getNoteBatteryCycle;
 
 /**
  * Bluetoothアクセサリ
  */
--(NSString *)getBTKeyboardBatteryPersent;
--(NSString *)getBTMouseBatteryPersent;
--(NSString *)getBTTrackpadBatteryPersent;
+-(NSString *)getBTKeyboardBatteryPercent;
+-(NSString *)getBTMouseBatteryPercent;
+-(NSString *)getBTTrackpadBatteryPercent;
 
 @end
