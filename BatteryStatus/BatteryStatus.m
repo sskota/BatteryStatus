@@ -148,6 +148,10 @@
     NSString *current = [self getNoteBatteryCurrentCapacity];
     NSString *max = [self getNoteBatteryMaxCapacity];
     
+    if ([current isEqualToString:@""] || [max isEqualToString:@""]) {
+        return @"";
+    }
+    
     int charge = [current intValue] * 100 / [max intValue];
     NSString *result = [NSString stringWithFormat:@"%d", charge];
     
@@ -160,6 +164,10 @@
 {
     NSString *design = [self getNoteBatteryDegignCapacity];
     NSString *max = [self getNoteBatteryMaxCapacity];
+    
+    if ([design isEqualToString:@""] || [max isEqualToString:@""]) {
+        return @"";
+    }
     
     int helth = [max intValue] * 100 / [design intValue];
     NSString *result = [NSString stringWithFormat:@"%d", helth];
