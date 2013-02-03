@@ -3,6 +3,19 @@
   BatteryStatus
 */
 
+YES = "はい";
+NO = "いいえ";
+NOT_CONNECT = "未接続";
+
+EXTERNAL_CONNECTED = "外部電源接続:";
+BATTERY_IS_FULLY = "バッテリー充電完了:";
+BATTERY_TIMELEFT = "バッテリー残り時間:";
+BATTERY_PERSENT = "バッテリー充電率:";
+BATTERY_HELTH = "バッテリー健康度:";
+BATTERY_CURRENT_CAPACITY = "バッテリー容量:";
+BATTERY_MAX_CAPACITY = "バッテリー最大容量:";
+BATTERY_DEGIGN_CAPACITY = "バッテリーデザイン容量:";
+
 BTKEYBORD_BATTERY = "Bluethoothキーボードバッテリー:";
 BTMOUSE_BATTERY = "Bluethoothマウスバッテリー:";
 BTTRACKPAD_BATTERY = "Bluethoothトラックパッドバッテリー:";

@@ -3,6 +3,19 @@
   BatteryStatus
 */
 
+YES = "Yes";
+NO = "No";
+NOT_CONNECT = "Not connect";
+
+EXTERNAL_CONNECTED = "External connected:";
+BATTERY_IS_FULLY = "Battery is fully:";
+BATTERY_TIMELEFT = "Battery timeleft:";
+BATTERY_PERSENT = "Battery persent:";
+BATTERY_HELTH = "Battery helth:";
+BATTERY_CURRENT_CAPACITY = "Battery current capacity:";
+BATTERY_MAX_CAPACITY = "Battery max capacity:";
+BATTERY_DEGIGN_CAPACITY = "Battery degign capacity:";
+
 BTKEYBORD_BATTERY = "Bluethooth Keybord Battery:";
 BTMOUSE_BATTERY = "Bluethooth Mouse Battery:";
 BTTRACKPAD_BATTERY = "Bluethooth Trackpad Battery:";
