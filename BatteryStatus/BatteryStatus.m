@@ -28,7 +28,7 @@
     
     NSLog(@"External Connect: %@", result);
     
-    if ([result isEqualToString:@"YES"]) {
+    if ([result isEqualToString:@"Yes"]) {
         return true;
     }
     return false;
@@ -52,7 +52,7 @@
     
     NSLog(@"Battery Is Fully: %@", result);
     
-    if ([result isEqualToString:@"YES"]) {
+    if ([result isEqualToString:@"Yes"]) {
         return true;
     }
     return false;
@@ -148,8 +148,8 @@
     NSString *current = [self getNoteBatteryCurrentCapacity];
     NSString *max = [self getNoteBatteryMaxCapacity];
     
-    double charge = [current intValue] * 100 / [max intValue];
-    NSString *result = [NSString stringWithFormat:@"%f", charge];
+    int charge = [current intValue] * 100 / [max intValue];
+    NSString *result = [NSString stringWithFormat:@"%d", charge];
     
     NSLog(@"Charge: %@", result);
     
@@ -161,8 +161,8 @@
     NSString *design = [self getNoteBatteryDegignCapacity];
     NSString *max = [self getNoteBatteryMaxCapacity];
     
-    double helth = [max intValue] * 100 / [design intValue];
-    NSString *result = [NSString stringWithFormat:@"%f", helth];
+    int helth = [max intValue] * 100 / [design intValue];
+    NSString *result = [NSString stringWithFormat:@"%d", helth];
     
     NSLog(@"Helth: %@", result);
     
@@ -209,7 +209,7 @@
     NSData *data = [handle readDataToEndOfFile];
     NSString *result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     result = [result stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-    result = [result stringByAppendingString:@"%"];
+    //result = [result stringByAppendingString:@"%"];
     
     NSLog(@"Wireless Keyboard: %@", result);
     
@@ -231,7 +231,7 @@
     NSData *data = [handle readDataToEndOfFile];
     NSString *result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     result = [result stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-    result = [result stringByAppendingString:@"%"];
+    //result = [result stringByAppendingString:@"%"];
     
     NSLog(@"Mouse Battery: %@", result);
     
@@ -253,7 +253,7 @@
     NSData *data = [handle readDataToEndOfFile];
     NSString *result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     result = [result stringByReplacingOccurrencesOfString:@"\n" withString:@""];
-    result = [result stringByAppendingString:@"%"];
+    //result = [result stringByAppendingString:@"%"];
     
     NSLog(@"Trackpad Battery: %@", result);
     
