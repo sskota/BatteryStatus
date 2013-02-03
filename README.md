@@ -1,4 +1,5 @@
 BatteryStatus
 =============
 
-OS X Sample App
+MacBookのバッテリー情報やBluetoothアクセサリのバッテリー情報を取得するサンプル。
+もっと別の方法があるような気がしてならないが、一例として。
